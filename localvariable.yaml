@@ -12,5 +12,5 @@
   - name: say how are you
     debug: 
       msg: "{{URL}}"
-       vars:
+      vars:
        URL: "local cloud"

@@ -1,0 +1,16 @@
+- name: this playbook
+  hosts: all
+  vars_prompt:
+  - name: URL
+    prompt: enter your variable value
+    private: false
+  tasks:
+  - name: say hi
+    debug:
+      msg: "{{URL}}"
+  - name: say hello
+    debug: 
+      msg: "{{URL}}"
+  - name: say how are you
+    debug: 
+      msg: "{{URL}}"

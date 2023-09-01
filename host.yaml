@@ -1,0 +1,12 @@
+- name: this playbook
+  hosts: all
+  tasks:
+  - name: say hi
+    debug:
+      msg: "{{URL}}"
+  - name: say hello
+    debug: 
+      msg: "{{URL}}"
+  - name: say how are you
+    debug: 
+      msg: "{{URL}}"

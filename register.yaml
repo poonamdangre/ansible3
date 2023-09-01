@@ -6,4 +6,4 @@
     register: URL
   - name: print hostname
     debug: 
-      msg: "{{URL}}"
+      msg: "{{URL.stdout}}"

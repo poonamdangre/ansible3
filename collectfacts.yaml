@@ -1,0 +1,6 @@
+- name: gathering facts from webserver
+  hosts: all
+  tasks: 
+  - name: collect os name
+    debug:
+      msg: "{{ansible_distribution}}"

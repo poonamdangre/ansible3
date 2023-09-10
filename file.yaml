@@ -1,7 +1,7 @@
 - name: this is for variable understanding
   hosts: all
-   vars_files:
-    - ./var.txt
+  vars_files:
+  - ./var.txt
   tasks: 
   - name: say hi 
     debug:

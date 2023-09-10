@@ -1,0 +1,12 @@
+- name: this is for variable understanding
+  hosts: all
+  vars_files:
+   - ./var.txt
+  tasks: 
+  - name: say hi 
+    debug:
+      msg: "{{URL}}"
+  - name: say hELLO 
+    debug:
+      msg: "{{URL}}"
+      
